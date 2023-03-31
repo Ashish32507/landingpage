@@ -1,0 +1,171 @@
+html,body{
+    height: 100%;
+    margin:0 ;
+    font-size: 16px;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #666;
+}
+
+.section{
+    background-image: url(img/developer.png);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section h1{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.section small{
+    font-size: 20px;
+}
+.section span{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    margin-left: -25px;
+    text-align: center;
+    font-size: 35px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.text{
+    text-align: center;
+    font-size: 50px 80px;
+    padding-top: 10px;
+    background-color: black;
+    color: aliceblue;
+    min-height: max-content;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.text h2{
+    font-size: 80px;
+}
+.text span{
+   font-size: 120px;
+}
+.outer{
+    /* position: relative; */
+    width: 100%;
+    margin-top: 50px;
+    display: block;
+}
+
+.inner{
+    /* position: absolute; */
+    margin: 90px 20%;
+    display: flex;
+}
+
+.work{
+    height: 400px;
+    border: 2px solid white;
+    margin: 25px;
+    overflow: hidden;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 30px rgba(0, 0,0,0.3 );
+    animation: Z;
+}
+.work:hover{
+    animation: zoom-in-zoom-out 5s ease ;
+}
+
+.work h3{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.work p{
+    margin-top: -15px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.work img{
+    width: 300px;
+    height: 200px;
+}
+
+.foot{
+    /* position: absolute; */
+    display: flex;
+    width: 100%;
+    border: 2px solid black;
+}
+.contact{
+    height: 200px;
+    background-color: rgb(110, 6, 6);
+}
+.about{
+    height: 200px;
+    background-color: rgb(4, 23, 2);
+}
+
+.about h2{
+    padding-left: 50px;
+    text-align: left;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.about p{
+    padding-left: 50px;
+    text-align: left;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.contact h2{
+    padding-left: 50px;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: left;
+}
+
+.contact p{
+    padding-left: 50px;
+    text-align: left;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.footer{
+    margin-top: -20px;
+    width: 100%;
+    min-height: fit-content;
+}
+.footer h2{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #666;
+    color: black;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    4% {
+      transform: scale(1.1);
+    }
+    
+  }
